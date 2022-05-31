@@ -1,0 +1,89 @@
+@import '~bootstrap/dist/css/bootstrap.css';
+
+
+.App {
+  text-align: center;
+  height: 100vh;
+  padding: 130px 60px;
+  background: #070707;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+p {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.Main {
+  background: linear-gradient(95deg, #974d37, #181e41 50%);
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  color: white;
+  font-size: 16px;
+  position: relative;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@media (max-width:568px) {
+  .App {
+    text-align: center;
+    height: 100%;
+    padding: 70px 10px;
+    background: linear-gradient(#e66465, #9198e5);
+    display: flex;
+    align-items: center;
+
+  }
+
+  .Main {
+    background: linear-gradient(95deg, #974d37, #181e41 50%);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
